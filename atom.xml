@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>蒋鑫的博客</title>
+  <icon>https://yqjiangxin.github.io/icon.png</icon>
+  
+  <link href="https://yqjiangxin.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yqjiangxin.github.io/"/>
+  <updated>2021-12-10T16:35:54.000Z</updated>
+  <id>https://yqjiangxin.github.io/</id>
+  
+  <author>
+    <name>yqjiangxin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mac air 重装系统指南</title>
+    <link href="https://yqjiangxin.github.io/posts/690f4a5/"/>
+    <id>https://yqjiangxin.github.io/posts/690f4a5/</id>
+    <published>2021-12-10T16:34:19.000Z</published>
+    <updated>2021-12-10T16:35:54.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;2021年12月4日，我的mac air电脑重装了，重装原因是系统升级到最新的10.15之后（手欠啊。。），风扇狂转，电量掉的极快。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在此记录下重装指南，万一哪天需要重装系统，供后续参考。&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>畅游互联网-vps+v2ray</title>
+    <link href="https://yqjiangxin.github.io/posts/ea84a1c5/"/>
+    <id>https://yqjiangxin.github.io/posts/ea84a1c5/</id>
+    <published>2021-11-27T05:00:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文介绍通过在vps服务器搭建v2ray的方式，让您的pc、手机可以访问国外网站，畅游真正的互联网！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：购买vps服务器需要一定的费用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;选择vps服务器&quot;&gt;&lt;a href=&quot;#选择vps服务器&quot; class=&quot;headerlink&quot; title=&quot;选择vps服务器&quot;&gt;&lt;/a&gt;选择vps服务器&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://bwh81.net/&quot;&gt;搬瓦工官网&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ssh登陆vps服务器命令：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;code&gt;ssh root@ip -p port&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git简明指南</title>
+    <link href="https://yqjiangxin.github.io/posts/c9a342e3/"/>
+    <id>https://yqjiangxin.github.io/posts/c9a342e3/</id>
+    <published>2021-11-23T13:09:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;git-简明指南&quot;&gt;&lt;a href=&quot;#git-简明指南&quot; class=&quot;headerlink&quot; title=&quot;git - 简明指南&quot;&gt;&lt;/a&gt;git - 简明指南&lt;/h1&gt;&lt;p&gt;助你入门 git 的简明指南，木有高深内容 ;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作者：罗杰·杜德勒&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感谢：@tfnico, @fhd 和 Namics&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如有纰漏，请在 github 提报问题&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="git" scheme="https://yqjiangxin.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://yqjiangxin.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开心的照片20211122</title>
+    <link href="https://yqjiangxin.github.io/posts/c7d096fa/"/>
+    <id>https://yqjiangxin.github.io/posts/c7d096fa/</id>
+    <published>2021-11-22T12:06:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一家三口乐乐乐！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021-11-22 下午8.06 拍摄的照片&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-2.png&quot; alt=&quot;upload</summary>
+        
+      
+    
+    
+    
+    
+    <category term="蒋开心" scheme="https://yqjiangxin.github.io/tags/%E8%92%8B%E5%BC%80%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-search插件</title>
+    <link href="https://yqjiangxin.github.io/posts/e3ec183f/"/>
+    <id>https://yqjiangxin.github.io/posts/e3ec183f/</id>
+    <published>2021-11-21T12:37:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安装插件&quot;&gt;&lt;a href=&quot;#安装插件&quot; class=&quot;headerlink&quot; title=&quot;安装插件&quot;&gt;&lt;/a&gt;安装插件&lt;/h1&gt;&lt;p&gt;第一步，安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install hexo-generator-searchdb --save&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;编辑站点配置文件&quot;&gt;&lt;a href=&quot;#编辑站点配置文件&quot; class=&quot;headerlink&quot; title=&quot;编辑站点配置文件&quot;&gt;&lt;/a&gt;编辑站点配置文件&lt;/h1&gt;&lt;p&gt;第二步，编辑【站点配置文件】，如&lt;code&gt;_config.yml&lt;/code&gt;，新增以下内容到任意位置：&lt;/p&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;# Local Search搜索功能&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;search:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  path:&lt;/span&gt; search.xml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  field:&lt;/span&gt; post&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  format:&lt;/span&gt; html&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  limit:&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;10000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-rss插件</title>
+    <link href="https://yqjiangxin.github.io/posts/681ac4d2/"/>
+    <id>https://yqjiangxin.github.io/posts/681ac4d2/</id>
+    <published>2021-11-21T12:20:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安装feed插件&quot;&gt;&lt;a href=&quot;#安装feed插件&quot; class=&quot;headerlink&quot; title=&quot;安装feed插件&quot;&gt;&lt;/a&gt;安装feed插件&lt;/h1&gt;&lt;p&gt;hexo博客有一个专门生成RSS xml文件的插件&lt;code&gt;hexo-generator-feed&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-generator-feed&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;启用插件&quot;&gt;&lt;a href=&quot;#启用插件&quot; class=&quot;headerlink&quot; title=&quot;启用插件&quot;&gt;&lt;/a&gt;启用插件&lt;/h1&gt;&lt;p&gt;在博客根目录下&lt;code&gt;_config.yml&lt;/code&gt;文件中添加如下内容   &lt;/p&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;# Extensions&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;plugins:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    hexo-generator-feed&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#Feed Atom&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;feed:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;    type:&lt;/span&gt; atom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;    path:&lt;/span&gt; atom.xml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;    limit:&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;   &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+    <category term="feed" scheme="https://yqjiangxin.github.io/tags/feed/"/>
+    
+    <category term="rss" scheme="https://yqjiangxin.github.io/tags/rss/"/>
+    
+    <category term="hexo插件" scheme="https://yqjiangxin.github.io/tags/hexo%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown语法</title>
+    <link href="https://yqjiangxin.github.io/posts/f134a8e5/"/>
+    <id>https://yqjiangxin.github.io/posts/f134a8e5/</id>
+    <published>2021-11-21T11:09:16.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h1&gt;&lt;p&gt;使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。&lt;/p&gt;
+&lt;figure class=&quot;highlight clean&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 一级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;## 二级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;### 三级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#### 四级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##### 五级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###### 六级标题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-next主题</title>
+    <link href="https://yqjiangxin.github.io/posts/b8ac865a/"/>
+    <id>https://yqjiangxin.github.io/posts/b8ac865a/</id>
+    <published>2021-11-21T10:55:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;p&gt;如果你在使用 Hexo 5.0 或更新版本，最简单的安装方式是通过 npm：  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd hexo-site
+npm install hexo-theme-next
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;安装完成后，在 Hexo 配置文件中将 &lt;code&gt;theme&lt;/code&gt; 设置为 &lt;code&gt;next&lt;/code&gt;。  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;theme: next&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h1&gt;&lt;p&gt;目前 NexT 鼓励用户使用 Alternate Theme Config 进行配置。并且可以轻松地通过 Custom Files 自定义主题的布局和样式。&lt;br&gt;不推荐直接修改 NexT 主题的文件。因为这可能导致错误（例如 git merge 冲突），并且在升级主题时修改的文件可能丢失。&lt;/p&gt;
+&lt;h1 id=&quot;插件&quot;&gt;&lt;a href=&quot;#插件&quot; class=&quot;headerlink&quot; title=&quot;插件&quot;&gt;&lt;/a&gt;插件&lt;/h1&gt;&lt;p&gt;插件丰富和拓展了 NexT 的功能。这些插件分为两种：核心插件和第三方插件。核心插件被 NexT 的基础功能所依赖。第三方插件提供了大量的可选功能。&lt;/p&gt;
+&lt;p&gt;配置这些插件非常简单。例如，你想要在你的站点中使用 &lt;code&gt;pjax&lt;/code&gt; 插件，请进入 NexT 配置文件，启用 &lt;code&gt;pjax&lt;/code&gt; 配置项：  &lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Easily enable fast Ajax navigation on your website.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# For more information: https://github.com/next-theme/pjax&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;pjax:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+    <category term="hexo主题" scheme="https://yqjiangxin.github.io/tags/hexo%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-admin插件</title>
+    <link href="https://yqjiangxin.github.io/posts/3e163297/"/>
+    <id>https://yqjiangxin.github.io/posts/3e163297/</id>
+    <published>2021-11-21T09:34:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;hexo-admin插件&quot;&gt;&lt;a href=&quot;#hexo-admin插件&quot; class=&quot;headerlink&quot; title=&quot;hexo-admin插件&quot;&gt;&lt;/a&gt;hexo-admin插件&lt;/h1&gt;&lt;h2 id=&quot;插件介绍&quot;&gt;&lt;a href=&quot;#插件介绍&quot; class=&quot;headerlink&quot; title=&quot;插件介绍&quot;&gt;&lt;/a&gt;插件介绍&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;hexo-admin 是一个Hexo博客引擎的管理用户界面插件。这个插件最初是作为本地编辑器设计的，在本地运行hexo使用hexo-admin编写文章，然后通过hexo g或hexo d（hexo g是本地渲染，hexo d是将渲染的静态页面发布到GitHub）将生成的静态页面发布到GitHub等静态服务器。如果你使用的是非静态托管服务器，比如自己买的主机搭建的hexo，那么一定要设置hexo-admin 的密码，否则谁都可以编辑你的文章。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="插件" scheme="https://yqjiangxin.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github教程</title>
+    <link href="https://yqjiangxin.github.io/posts/45ac7b8e/"/>
+    <id>https://yqjiangxin.github.io/posts/45ac7b8e/</id>
+    <published>2021-11-18T11:36:41.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[TOC]&lt;br&gt;##配置git&lt;br&gt;首先在本地创建ssh key；&lt;br&gt;&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;your_email@youremail.com&amp;quot;&lt;/code&gt;&lt;br&gt;后面的&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2021年6月25日-我的宝宝出生啦！</title>
+    <link href="https://yqjiangxin.github.io/posts/32f673e3/"/>
+    <id>https://yqjiangxin.github.io/posts/32f673e3/</id>
+    <published>2021-11-18T06:41:00.000Z</published>
+    <updated>2021-12-10T13:10:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2021年6月25日-我的宝宝出生啦！&quot;&gt;&lt;a href=&quot;#2021年6月25日-我的宝宝出生啦！&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="蒋开心" scheme="https://yqjiangxin.github.io/tags/%E8%92%8B%E5%BC%80%E5%BF%83/"/>
+    
+  </entry>
+  
+</feed>

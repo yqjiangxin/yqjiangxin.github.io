@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>2021年6月25日-我的宝宝出生啦！</title>
+    <url>/posts/32f673e3/</url>
+    <content><![CDATA[<h1 id="2021年6月25日-我的宝宝出生啦！"><a href="#2021年6月25日-我的宝宝出生啦！" class="headerlink" title="2021年6月25日-我的宝宝出生啦！"></a>2021年6月25日-我的宝宝出生啦！</h1><p>我的宝宝，名字叫蒋开心！</p>
+<p>WechatIMG7.jpeg<br><img src="/images/pasted-1.png" alt="upload successful"></p>
+]]></content>
+      <tags>
+        <tag>蒋开心</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github教程</title>
+    <url>/posts/45ac7b8e/</url>
+    <content><![CDATA[<p>[TOC]<br>##配置git<br>首先在本地创建ssh key；<br><code>ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot;</code><br>后面的<a href="mailto:&#x79;&#x6f;&#117;&#x72;&#x5f;&#101;&#109;&#97;&#x69;&#x6c;&#x40;&#x79;&#111;&#117;&#114;&#101;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x79;&#x6f;&#117;&#x72;&#x5f;&#101;&#109;&#97;&#x69;&#x6c;&#x40;&#x79;&#111;&#117;&#114;&#101;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a>改为你在github上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key。<br>回到github上，进入 Account Settings（账户配置），左边选择SSH Keys，Add SSH Key,title随便填，粘贴在你电脑上生成的key。<br>为了验证是否成功，在git bash下输入：<br><code>ssh -T git@github.com</code></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>git简明指南</title>
+    <url>/posts/c9a342e3/</url>
+    <content><![CDATA[<h1 id="git-简明指南"><a href="#git-简明指南" class="headerlink" title="git - 简明指南"></a>git - 简明指南</h1><p>助你入门 git 的简明指南，木有高深内容 ;)</p>
+<blockquote>
+<p>作者：罗杰·杜德勒</p>
+</blockquote>
+<blockquote>
+<p>感谢：@tfnico, @fhd 和 Namics</p>
+</blockquote>
+<blockquote>
+<p>如有纰漏，请在 github 提报问题</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="创建新仓库"><a href="#创建新仓库" class="headerlink" title="创建新仓库"></a>创建新仓库</h2><p>创建新文件夹，打开，然后执行</p>
+<p><code>git init</code></p>
+<p>以创建新的 git 仓库。</p>
+<h2 id="检出仓库"><a href="#检出仓库" class="headerlink" title="检出仓库"></a>检出仓库</h2><p>执行如下命令以创建一个本地仓库的克隆版本：</p>
+<p><code>git clone /path/to/repository</code></p>
+<p>如果是远端服务器上的仓库，你的命令会是这个样子：</p>
+<p><code>git clone username@host:/path/to/repository</code></p>
+<h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><p>你的本地仓库由 git 维护的三棵“树”组成。</p>
+<p>第一个是你的 <code>工作目录</code>，它持有实际文件；</p>
+<p>第二个是 <code>暂存区（Index）</code>，它像个缓存区域，临时保存你的改动；</p>
+<p>最后是 <code>HEAD</code>，它指向你最后一次提交的结果。</p>
+<p><img src="/images/pasted-3.png" alt="upload successful"></p>
+<h2 id="添加和提交"><a href="#添加和提交" class="headerlink" title="添加和提交"></a>添加和提交</h2><p>你可以提出更改（把它们添加到暂存区），使用如下命令：</p>
+<p><code>git add &lt;filename&gt;</code></p>
+<p><code>git add *</code></p>
+<p>这是 git 基本工作流程的第一步；使用如下命令以实际提交改动：</p>
+<p><code>git commit -m &quot;代码提交信息&quot;</code></p>
+<p>现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。</p>
+<h2 id="推送改动"><a href="#推送改动" class="headerlink" title="推送改动"></a>推送改动</h2><p>你的改动现在已经在本地仓库的 <code>HEAD</code> 中了。执行如下命令以将这些改动提交到远端仓库：</p>
+<p><code>git push origin master</code></p>
+<p>可以把 <code>master</code> 换成你想要推送的任何分支。</p>
+<p>如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：</p>
+<p><code>git remote add origin &lt;server&gt;</code></p>
+<p>如此你就能够将你的改动推送到所添加的服务器上去了。</p>
+<h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><p>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，<code>master</code> 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。</p>
+<p><img src="/images/pasted-4.png" alt="upload successful"></p>
+<p>创建一个叫做“feature_x”的分支，并切换过去：</p>
+<p><code>git checkout -b feature_x</code></p>
+<p>切换回主分支：</p>
+<p><code>git checkout master</code></p>
+<p>再把新建的分支删掉：</p>
+<p><code>git branch -d feature_x</code></p>
+<p>除非你将分支推送到远端仓库，不然该分支就是 不为他人所见的：</p>
+<p><code>git push origin &lt;branch&gt;</code></p>
+<h2 id="更新与合并"><a href="#更新与合并" class="headerlink" title="更新与合并"></a>更新与合并</h2><p>要更新你的本地仓库至最新改动，执行：</p>
+<p><code>git pull</code></p>
+<p>以在你的工作目录中 获取（<code>fetch</code>） 并 合并（<code>merge</code>） 远端的改动。</p>
+<p>要合并其他分支到你的当前分支（例如 <code>master</code>），执行：</p>
+<p><code>git merge &lt;branch&gt;</code></p>
+<p>在这两种情况下，git 都会尝试去自动合并改动。遗憾的是，这可能并非每次都成功，并可能出现冲突（conflicts）。 这时候就需要你修改这些文件来手动合并这些冲突（conflicts）。改完之后，你需要执行如下命令以将它们标记为合并成功：</p>
+<p><code>git add &lt;filename&gt;</code></p>
+<p>在合并改动之前，你可以使用如下命令预览差异：</p>
+<p><code>git diff &lt;source_branch&gt; &lt;target_branch&gt;</code></p>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：</p>
+<p><code>git tag 1.0.0 1b2e1d63ff</code></p>
+<p>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：</p>
+<p><code>git log</code></p>
+<p>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性。</p>
+<h2 id="替换本地改动"><a href="#替换本地改动" class="headerlink" title="替换本地改动"></a>替换本地改动</h2><p>假如你操作失误（当然，这最好永远不要发生），你可以使用如下命令替换掉本地改动：</p>
+<p><code>git checkout -- &lt;filename&gt;</code></p>
+<p>此命令会使用 HEAD 中的最新内容替换掉你的工作目录中的文件。已添加到暂存区的改动以及新文件都不会受到影响。</p>
+<p>假如你想丢弃你在本地的所有改动与提交，可以到服务器上获取最新的版本历史，并将你本地主分支指向它：</p>
+<p><code>git fetch origin</code></p>
+<p><code>git reset --hard origin/master</code></p>
+]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-admin插件</title>
+    <url>/posts/3e163297/</url>
+    <content><![CDATA[<h1 id="hexo-admin插件"><a href="#hexo-admin插件" class="headerlink" title="hexo-admin插件"></a>hexo-admin插件</h1><h2 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h2><blockquote>
+<p>hexo-admin 是一个Hexo博客引擎的管理用户界面插件。这个插件最初是作为本地编辑器设计的，在本地运行hexo使用hexo-admin编写文章，然后通过hexo g或hexo d（hexo g是本地渲染，hexo d是将渲染的静态页面发布到GitHub）将生成的静态页面发布到GitHub等静态服务器。如果你使用的是非静态托管服务器，比如自己买的主机搭建的hexo，那么一定要设置hexo-admin 的密码，否则谁都可以编辑你的文章。</p>
+</blockquote>
+<span id="more"></span>
+
+
+<h2 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h2><ol>
+<li>首先进入hexo创建的博客项目的根目录下，执行<br><code> npm install --save hexo-admin</code></li>
+<li>运行下列命令启动hexo-admin ：<br><code>hexo server -d</code></li>
+<li>打开 <a href="http://localhost:4000/admin/">http://localhost:4000/admin/</a> 就可以访问到hexo-admin管理页面了。</li>
+</ol>
+<h2 id="密码保护"><a href="#密码保护" class="headerlink" title="密码保护"></a>密码保护</h2><p>打开<code>setting</code>，点击<code>Setup authentification here</code>输入用户名，密码，密钥，下面会自动生成配置文件，复制加在hexo根目录下的<code>_config.yml</code>中：</p>
+<pre><code>admin:
+      username: yqjiangxin
+      password_hash: 
+      secret: 
+</code></pre>
+<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><ol>
+<li>新建配置脚本<br>我们先在博客根目录下新建个目录<code>admin_script</code>，然后在目录中新建一个脚本<code>hexo-d.sh</code>，内容如下：<br><code>hexo g &amp;&amp; hexo d</code></li>
+<li>然后给hexo-g.sh加入可执行权限<br><code>chmod +x hexo-d.sh</code></li>
+<li>然后在_config.yml中的admin下添加  </li>
+</ol>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="symbol">admin:</span></span><br><span class="line"><span class="symbol">  	username:</span> yqjiangxin</span><br><span class="line"><span class="symbol">  	password_hash:</span> </span><br><span class="line"><span class="symbol">  	secret:</span> </span><br><span class="line"><span class="symbol">  	deployCommand:</span> ./admin_script/hexo-d.sh</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>发布deploy<br>进入后台之后点击<code>Deploy</code>，系统就会执行这个命令并提交到GitHub上。</li>
+</ol>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol>
+<li>点击<code>Deploy</code>失败，提示<code>Spawn ./admin_script/hexo-d.sh</code>  <blockquote>
+<p>执行<code>hexo s -d</code>命令时需在根目录下执行。</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next主题</title>
+    <url>/posts/b8ac865a/</url>
+    <content><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>如果你在使用 Hexo 5.0 或更新版本，最简单的安装方式是通过 npm：  </p>
+<pre><code>cd hexo-site
+npm install hexo-theme-next
+</code></pre>
+<p>安装完成后，在 Hexo 配置文件中将 <code>theme</code> 设置为 <code>next</code>。  </p>
+<p><code>theme: next</code></p>
+<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>目前 NexT 鼓励用户使用 Alternate Theme Config 进行配置。并且可以轻松地通过 Custom Files 自定义主题的布局和样式。<br>不推荐直接修改 NexT 主题的文件。因为这可能导致错误（例如 git merge 冲突），并且在升级主题时修改的文件可能丢失。</p>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><p>插件丰富和拓展了 NexT 的功能。这些插件分为两种：核心插件和第三方插件。核心插件被 NexT 的基础功能所依赖。第三方插件提供了大量的可选功能。</p>
+<p>配置这些插件非常简单。例如，你想要在你的站点中使用 <code>pjax</code> 插件，请进入 NexT 配置文件，启用 <code>pjax</code> 配置项：  </p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Easily enable fast Ajax navigation on your website.</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/next-theme/pjax</span></span><br><span class="line"><span class="attr">pjax:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><h2 id="tags无法显示问题"><a href="#tags无法显示问题" class="headerlink" title="tags无法显示问题"></a>tags无法显示问题</h2><ol>
+<li>命令行输入: <code>hexo new page tags</code>  </li>
+<li>这时会在在sources/tags里面有个index.md的文件，打开这个文件编辑  <figure class="highlight vim"><table><tr><td class="code"><pre><span class="line"> ---</span><br><span class="line"> title: <span class="keyword">tags</span></span><br><span class="line"> date: <span class="number">2016</span>-<span class="number">11</span>-<span class="number">11</span> <span class="number">21</span>:<span class="number">40</span>:<span class="number">58</span></span><br><span class="line"> <span class="built_in">type</span>: <span class="string">&quot;tags&quot;</span></span><br><span class="line"> ---```</span><br><span class="line">**<span class="built_in">type</span>: 改成<span class="keyword">tags</span>**</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>. 在主题配置文件中，在<span class="keyword">menu</span>项下，要把<span class="keyword">tags</span>页打开</span><br></pre></td></tr></table></figure>
+menu:<br>home: /<br>categories: /categories<br>#about: /about<br>archives: /archives<br>tags: /tags    //确保标签页已打开<br>#schedule: /schedule<br>#commonweal: /404.html<br>```</li>
+</ol>
+<p><strong>所有冒号后面都有个空格</strong></p>
+]]></content>
+      <tags>
+        <tag>hexo主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>markdown语法</title>
+    <url>/posts/f134a8e5/</url>
+    <content><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h1 id="段落格式"><a href="#段落格式" class="headerlink" title="段落格式"></a>段落格式</h1><h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>段落的换行是使用两个以上空格加上回车。</p>
+<p>当然也可以在段落后面使用一个空行来表示重新开始一个段落。</p>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="strong">*斜体文本*</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="emphasis">__粗体文本__</span></span><br><span class="line"><span class="strong">***粗斜体文本**</span>*</span><br><span class="line"><span class="emphasis">___粗斜体文本__</span>_</span><br></pre></td></tr></table></figure>
+
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">*</span> <span class="emphasis">* *</span></span></span><br><span class="line"><span class="strong">**</span><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">- - -</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">----------</span></span></span><br></pre></td></tr></table></figure>
+
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可，实例如下：</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">RUNOOB<span class="selector-class">.COM</span></span><br><span class="line">GOOGLE<span class="selector-class">.COM</span></span><br><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure>
+
+<h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线可以通过 HTML 的 <code>&lt;u&gt;</code> 标签来实现：</p>
+<p><code>&lt;u&gt;带下划线文本&lt;/u&gt;</code></p>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注是对文本的补充说明。</p>
+<p>Markdown 脚注的格式如下:</p>
+<p><code>[^要注明的文本]</code><br>以下实例演示了脚注的用法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">创建脚注格式类似这样 [^RUNOOB]。</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^RUNOOB</span>]: <span class="link">菜鸟教程 -- 学的不仅是技术，更是梦想！！！</span></span><br></pre></td></tr></table></figure>
+
+
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>有序列表使用数字并加上 . 号来表示，如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h1><p>Markdown 区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号：</p>
+<figure class="highlight node-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;</span> <span class="javascript">区块引用</span></span><br><span class="line"><span class="meta">&gt;</span> <span class="javascript">菜鸟教程</span></span><br><span class="line"><span class="meta">&gt;</span> <span class="javascript">学的不仅是技术更是梦想</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来<br>你也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：</p>
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><figure class="highlight less"><table><tr><td class="code"><pre><span class="line">这是一个链接 <span class="selector-attr">[菜鸟教程]</span>(<span class="attribute">https</span>:<span class="comment">//www.runoob.com)</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">![RUNOOB 图标](http:<span class="regexp">//</span>static.runoob.com<span class="regexp">/images/</span>runoob-logo.png)</span><br><span class="line"></span><br><span class="line">![RUNOOB 图标](http:<span class="regexp">//</span>static.runoob.com<span class="regexp">/images/</span>runoob-logo.png <span class="string">&quot;RUNOOB&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">|<span class="string">  表头   </span>|<span class="string"> 表头  </span>|</span><br><span class="line">|<span class="string">  ----  </span>|<span class="string"> ----  </span>|</span><br><span class="line">|<span class="string"> 单元格  </span>|<span class="string"> 单元格 </span>|</span><br><span class="line">|<span class="string"> 单元格  </span>|<span class="string"> 单元格 </span>|</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="高级技巧"><a href="#高级技巧" class="headerlink" title="高级技巧"></a>高级技巧</h1><p>更多内容详见 <a href="https://www.runoob.com/markdown/md-advance.html">markdown教程</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo-rss插件</title>
+    <url>/posts/681ac4d2/</url>
+    <content><![CDATA[<h1 id="安装feed插件"><a href="#安装feed插件" class="headerlink" title="安装feed插件"></a>安装feed插件</h1><p>hexo博客有一个专门生成RSS xml文件的插件<code>hexo-generator-feed</code></p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-generator-feed</span><br></pre></td></tr></table></figure>
+
+<h1 id="启用插件"><a href="#启用插件" class="headerlink" title="启用插件"></a>启用插件</h1><p>在博客根目录下<code>_config.yml</code>文件中添加如下内容   </p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="meta"># Extensions</span></span><br><span class="line"><span class="symbol">plugins:</span></span><br><span class="line">    hexo-generator-feed</span><br><span class="line"><span class="meta">#Feed Atom</span></span><br><span class="line"><span class="symbol">feed:</span></span><br><span class="line"><span class="symbol">    type:</span> atom</span><br><span class="line"><span class="symbol">    path:</span> atom.xml</span><br><span class="line"><span class="symbol">    limit:</span> <span class="number">20</span>   </span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><p><code>$ hexo g</code></p>
+<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">(<span class="keyword">node</span><span class="title">:6520</span>) [DEP0061] DeprecationWarning: fs.SyncWriteStream is depre                                                                                                                           cated.</span><br><span class="line"><span class="literal">INF</span>O  <span class="literal">Start</span> processing</span><br><span class="line"><span class="literal">INF</span>O  Files loaded <span class="keyword">in</span> <span class="number">6.33</span> s</span><br><span class="line"><span class="literal">INF</span>O  Generated: atom.<span class="keyword">xml</span> <span class="title">&lt;----------成功生成atom</span>.xml文件</span><br><span class="line"><span class="literal">INF</span>O  Generated: sitemap.<span class="keyword">xml</span></span><br><span class="line"><span class="title">INFO</span>  Generated: baidusitemap.<span class="keyword">xml</span></span><br><span class="line"><span class="title">INFO</span>  Generated: about/index.html</span><br><span class="line">......</span><br><span class="line">......</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+
+<h1 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h1><p>订阅地址为：yqjiangxin.github.io/atom.xml</p>
+]]></content>
+      <tags>
+        <tag>feed</tag>
+        <tag>rss</tag>
+        <tag>hexo插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-search插件</title>
+    <url>/posts/e3ec183f/</url>
+    <content><![CDATA[<h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><p>第一步，安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：</p>
+<p><code>npm install hexo-generator-searchdb --save</code></p>
+<h1 id="编辑站点配置文件"><a href="#编辑站点配置文件" class="headerlink" title="编辑站点配置文件"></a>编辑站点配置文件</h1><p>第二步，编辑【站点配置文件】，如<code>_config.yml</code>，新增以下内容到任意位置：</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="meta"># Local Search搜索功能</span></span><br><span class="line"><span class="symbol">search:</span></span><br><span class="line"><span class="symbol">  path:</span> search.xml</span><br><span class="line"><span class="symbol">  field:</span> post</span><br><span class="line"><span class="symbol">  format:</span> html</span><br><span class="line"><span class="symbol">  limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h1 id="编辑主题配置文件"><a href="#编辑主题配置文件" class="headerlink" title="编辑主题配置文件"></a>编辑主题配置文件</h1><p>第三步，编辑【主题配置文件】，如<code>_config.next.yml</code>，启用本地搜索功能：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>开心的照片20211122</title>
+    <url>/posts/c7d096fa/</url>
+    <content><![CDATA[<p>一家三口乐乐乐！</p>
+<blockquote>
+<p>2021-11-22 下午8.06 拍摄的照片</p>
+</blockquote>
+<p><img src="/images/pasted-2.png" alt="upload successful"></p>
+<blockquote>
+<p>2021-11-25 我们家宝宝五个月啦！</p>
+</blockquote>
+<p><img src="/images/pasted-5.png" alt="upload successful"></p>
+]]></content>
+      <tags>
+        <tag>蒋开心</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>畅游互联网-vps+v2ray</title>
+    <url>/posts/ea84a1c5/</url>
+    <content><![CDATA[<blockquote>
+<p>本文介绍通过在vps服务器搭建v2ray的方式，让您的pc、手机可以访问国外网站，畅游真正的互联网！</p>
+</blockquote>
+<blockquote>
+<p>注：购买vps服务器需要一定的费用。</p>
+</blockquote>
+<h1 id="选择vps服务器"><a href="#选择vps服务器" class="headerlink" title="选择vps服务器"></a>选择vps服务器</h1><ol>
+<li><p><a href="https://bwh81.net/">搬瓦工官网</a></p>
+</li>
+<li><p>ssh登陆vps服务器命令：</p>
+</li>
+</ol>
+<p> <code>ssh root@ip -p port</code></p>
+<span id="more"></span>
+
+<h1 id="搭建v2ray"><a href="#搭建v2ray" class="headerlink" title="搭建v2ray"></a>搭建v2ray</h1><p><a href="https://www.itblogcn.com/article/1501.html">【新手教程】2021最新V2Ray搭建图文教程，V2Ray一键搭建脚本！</a></p>
+<p><code>bash &lt;(curl -s -L https://git.io/v2ray-setup.sh)</code></p>
+<p>相关命令：</p>
+<figure class="highlight smali"><table><tr><td class="code"><pre><span class="line">v2ray info 查看 V2Ray 配置信息</span><br><span class="line">v2ray config 修改 V2Ray 配置</span><br><span class="line">v2ray link 生成 V2Ray 配置文件链接</span><br><span class="line">v2ray infolink 生成 V2Ray 配置信息链接</span><br><span class="line">v2ray qr 生成 V2Ray 配置二维码链接</span><br><span class="line">v2ray ss 修改 Shadowsocks 配置</span><br><span class="line">v2ray ssinfo 查看 Shadowsocks 配置信息</span><br><span class="line">v2ray ssqr 生成 Shadowsocks 配置二维码链接</span><br><span class="line">v2ray status 查看 V2Ray 运行状态</span><br><span class="line">v2ray start 启动 V2Ray</span><br><span class="line">v2ray stop 停止 V2Ray</span><br><span class="line">v2ray restart 重启 V2Ray</span><br><span class="line">v2ray log 查看 V2Ray 运行日志</span><br><span class="line">v2ray update 更新 V2Ray</span><br><span class="line">v2ray update.sh 更新 V2Ray 管理脚本</span><br><span class="line">v2ray uninstall 卸载 V2Ray</span><br></pre></td></tr></table></figure>
+
+<h1 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h1><h2 id="mac"><a href="#mac" class="headerlink" title="mac"></a>mac</h2><p>客户端推荐V2RayX: <a href="https://github.com/Cenmrev/V2RayX/releases">https://github.com/Cenmrev/V2RayX/releases</a></p>
+<h2 id="ios"><a href="#ios" class="headerlink" title="ios"></a>ios</h2><p>推荐Potatso Lite（免费软件），需要注册美服账号进行下载</p>
+<h2 id="android"><a href="#android" class="headerlink" title="android"></a>android</h2><p>客户端：v2rayNG，具体下载链接如下：</p>
+<ol>
+<li><p><a href="https://cloud.degoo.com/share/msgcYbsWQVoz2EIbSXr5bw">APK</a></p>
+</li>
+<li><p><a href="https://github.com/2dust/v2rayNG/releases/download/1.4.13/v2rayNG_1.4.13_arm64-v8a.apk">Github</a></p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>mac air 重装系统指南</title>
+    <url>/posts/690f4a5/</url>
+    <content><![CDATA[<blockquote>
+<p>2021年12月4日，我的mac air电脑重装了，重装原因是系统升级到最新的10.15之后（手欠啊。。），风扇狂转，电量掉的极快。</p>
+</blockquote>
+<p>在此记录下重装指南，万一哪天需要重装系统，供后续参考。</p>
+<h1 id="恢复出厂设置系统（10-09）"><a href="#恢复出厂设置系统（10-09）" class="headerlink" title="恢复出厂设置系统（10.09）"></a>恢复出厂设置系统（10.09）</h1><h1 id="系统再次升级（10-09—-gt-10-10）"><a href="#系统再次升级（10-09—-gt-10-10）" class="headerlink" title="系统再次升级（10.09—&gt;10.10）"></a>系统再次升级（10.09—&gt;10.10）</h1><p>恢复出厂设置后，系统为10.09，因homebrew已不支持此版本，因此，需要从10.09升级至10.10</p>
+<p>具体升级方法参见：<a href="https://support.apple.com/zh-cn/HT211683">https://support.apple.com/zh-cn/HT211683</a></p>
+<h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><h2 id="homebrew"><a href="#homebrew" class="headerlink" title="homebrew"></a>homebrew</h2><p>(<a href="https://gitee.com/cunkai/HomebrewCN">https://gitee.com/cunkai/HomebrewCN</a>)</p>
+<h2 id="shadowsocksX"><a href="#shadowsocksX" class="headerlink" title="shadowsocksX"></a>shadowsocksX</h2><h2 id="sougouinput"><a href="#sougouinput" class="headerlink" title="sougouinput"></a>sougouinput</h2><p>brew install –cask sogouinput</p>
+<h2 id="wget"><a href="#wget" class="headerlink" title="wget"></a>wget</h2><h2 id="nethack"><a href="#nethack" class="headerlink" title="nethack"></a>nethack</h2><h2 id="homebrew-1"><a href="#homebrew-1" class="headerlink" title="homebrew"></a>homebrew</h2><p>重新安装curl <a href="https://github.com/curl/curl">https://github.com/curl/curl</a><br>用brew走代理更新 <a href="https://www.cnblogs.com/xjnotxj/p/7478614.html">https://www.cnblogs.com/xjnotxj/p/7478614.html</a><br>export ALL_PROXY=socks5://127.0.0.1:10808</p>
+<p>这里的 ALL_PROXY 值参考自 shadow,socks-&gt;偏好设置：</p>
+<p><a href="https://blog.csdn.net/assqd123/article/details/84530190">https://blog.csdn.net/assqd123/article/details/84530190</a></p>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2>]]></content>
+  </entry>
+</search>
