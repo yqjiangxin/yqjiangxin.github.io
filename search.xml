@@ -170,7 +170,7 @@ menu:<br>home: /<br>categories: /categories<br>#about: /about<br>archives: /arch
 <h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><p><code>$ hexo g</code></p>
 <figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">(<span class="keyword">node</span><span class="title">:6520</span>) [DEP0061] DeprecationWarning: fs.SyncWriteStream is depre                                                                                                                           cated.</span><br><span class="line"><span class="literal">INF</span>O  <span class="literal">Start</span> processing</span><br><span class="line"><span class="literal">INF</span>O  Files loaded <span class="keyword">in</span> <span class="number">6.33</span> s</span><br><span class="line"><span class="literal">INF</span>O  Generated: atom.<span class="keyword">xml</span> <span class="title">&lt;----------成功生成atom</span>.xml文件</span><br><span class="line"><span class="literal">INF</span>O  Generated: sitemap.<span class="keyword">xml</span></span><br><span class="line"><span class="title">INFO</span>  Generated: baidusitemap.<span class="keyword">xml</span></span><br><span class="line"><span class="title">INFO</span>  Generated: about/index.html</span><br><span class="line">......</span><br><span class="line">......</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
 
-<h1 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h1><p>订阅地址为：yqjiangxin.github.io/atom.xml</p>
+<h1 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h1><p>订阅地址为：<code>yqjiangxin.github.io/atom.xml</code></p>
 ]]></content>
       <tags>
         <tag>feed</tag>
