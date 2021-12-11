@@ -293,6 +293,9 @@ menu:<br>home: /<br>categories: /categories<br>#about: /about<br>archives: /arch
 <p>2021年12月4日，我的mac air电脑重装了，重装原因是系统升级到最新的10.15之后（手欠啊。。），风扇狂转，电量掉的极快。</p>
 </blockquote>
 <p>在此记录下重装指南，万一哪天需要重装系统，供后续参考。</p>
+<span id="more"></span>
+
+
 <h1 id="恢复出厂设置系统（10-09）"><a href="#恢复出厂设置系统（10-09）" class="headerlink" title="恢复出厂设置系统（10.09）"></a>恢复出厂设置系统（10.09）</h1><h1 id="系统再次升级（10-09—-gt-10-10）"><a href="#系统再次升级（10-09—-gt-10-10）" class="headerlink" title="系统再次升级（10.09—&gt;10.10）"></a>系统再次升级（10.09—&gt;10.10）</h1><p>恢复出厂设置后，系统为10.09，因homebrew已不支持此版本，因此，需要从10.09升级至10.10</p>
 <p>具体升级方法参见：<a href="https://support.apple.com/zh-cn/HT211683">https://support.apple.com/zh-cn/HT211683</a></p>
 <h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><h2 id="homebrew"><a href="#homebrew" class="headerlink" title="homebrew"></a>homebrew</h2><p>(<a href="https://gitee.com/cunkai/HomebrewCN">https://gitee.com/cunkai/HomebrewCN</a>)</p>
@@ -305,7 +308,13 @@ menu:<br>home: /<br>categories: /categories<br>#about: /about<br>archives: /arch
   <entry>
     <title>hexo博客绑定至腾讯云专属域名指南</title>
     <url>/posts/46658bfe/</url>
-    <content><![CDATA[<h1 id="腾讯云域名注册"><a href="#腾讯云域名注册" class="headerlink" title="腾讯云域名注册"></a>腾讯云域名注册</h1><p><a href="https://buy.cloud.tencent.com/domain">https://buy.cloud.tencent.com/domain</a></p>
+    <content><![CDATA[<blockquote>
+<p>本文记录如何将在github pages上部署的hexo博客网站绑定专属域名，即设置成功后，即可通过yqjiangxin.cn访问博客网站，无需使用yqjiangxin.github.io。</p>
+</blockquote>
+<span id="more"></span>
+
+
+<h1 id="腾讯云域名注册"><a href="#腾讯云域名注册" class="headerlink" title="腾讯云域名注册"></a>腾讯云域名注册</h1><p><a href="https://buy.cloud.tencent.com/domain">https://buy.cloud.tencent.com/domain</a></p>
 <p>按网站指引注册即可，需要注意的是，注册域名除了需要支付一定的费用外（大概几十块钱一年），还需提前准备身份证等照片，进行实名认证。</p>
 <p>本网站注册的域名为<code>yqjiangxin.cn</code></p>
 <h1 id="腾讯云域名添加解析"><a href="#腾讯云域名添加解析" class="headerlink" title="腾讯云域名添加解析"></a>腾讯云域名添加解析</h1><p><code>yqjiangxin.github.io</code></p>

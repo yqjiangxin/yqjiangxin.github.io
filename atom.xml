@@ -6,7 +6,7 @@
   <link href="https://yqjiangxin.github.io/atom.xml" rel="self"/>
   
   <link href="https://yqjiangxin.github.io/"/>
-  <updated>2021-12-11T05:57:07.000Z</updated>
+  <updated>2021-12-11T05:59:45.000Z</updated>
   <id>https://yqjiangxin.github.io/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="https://yqjiangxin.github.io/posts/46658bfe/"/>
     <id>https://yqjiangxin.github.io/posts/46658bfe/</id>
     <published>2021-12-11T05:31:00.000Z</published>
-    <updated>2021-12-11T05:57:07.000Z</updated>
+    <updated>2021-12-11T05:59:45.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;腾讯云域名注册&quot;&gt;&lt;a href=&quot;#腾讯云域名注册&quot; class=&quot;headerlink&quot; title=&quot;腾讯云域名注册&quot;&gt;&lt;/a&gt;腾讯云域名注册&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
-        
-      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文记录如何将在github pages上部署的hexo博客网站绑定专属域名，即设置成功后，即可通过yqjiangxin.cn访问博客网站，无需使用yqjiangxin.github.io。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -48,20 +44,13 @@
     <link href="https://yqjiangxin.github.io/posts/690f4a5/"/>
     <id>https://yqjiangxin.github.io/posts/690f4a5/</id>
     <published>2021-12-10T16:34:19.000Z</published>
-    <updated>2021-12-10T16:35:54.000Z</updated>
+    <updated>2021-12-11T06:00:03.000Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;2021年12月4日，我的mac air电脑重装了，重装原因是系统升级到最新的10.15之后（手欠啊。。），风扇狂转，电量掉的极快。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;在此记录下重装指南，万一哪天需要重装系统，供后续参考。&lt;/p&gt;
-&lt;h1</summary>
-        
-      
+&lt;p&gt;在此记录下重装指南，万一哪天需要重装系统，供后续参考。&lt;/p&gt;</summary>
     
     
     
