@@ -185,7 +185,7 @@ body {
   box-sizing: border-box;
   color: var(--text-color);
   font-family: Microsoft YaHei, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -2900,7 +2900,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #d7ff6b;
+  background: #ecaf62;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);

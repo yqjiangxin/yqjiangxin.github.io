@@ -28,7 +28,7 @@
 <meta property="og:description" content="安装feed插件hexo博客有一个专门生成RSS xml文件的插件hexo-generator-feed 1npm install hexo-generator-feed  启用插件在博客根目录下_config.yml文件中添加如下内容    12345678# Extensionsplugins:    hexo-generator-feed#Feed Atomfeed:    type: at">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-21T12:20:00.000Z">
-<meta property="article:modified_time" content="2021-12-11T12:31:59.000Z">
+<meta property="article:modified_time" content="2021-12-11T12:43:33.000Z">
 <meta property="article:author" content="yqjiangxin">
 <meta property="article:tag" content="feed">
 <meta property="article:tag" content="rss">
@@ -151,7 +151,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85feed%E6%8F%92%E4%BB%B6"><span class="nav-number">1.</span> <span class="nav-text">安装feed插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%AF%E7%94%A8%E6%8F%92%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">启用插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%9F%E6%88%90RSS"><span class="nav-number">3.</span> <span class="nav-text">生成RSS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%A2%E9%98%85"><span class="nav-number">4.</span> <span class="nav-text">订阅</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85feed%E6%8F%92%E4%BB%B6"><span class="nav-number">1.</span> <span class="nav-text">安装feed插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%AF%E7%94%A8%E6%8F%92%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">启用插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT-config-yml"><span class="nav-number">3.</span> <span class="nav-text">NexT _config.yml</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%9F%E6%88%90RSS"><span class="nav-number">4.</span> <span class="nav-text">生成RSS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%A2%E9%98%85"><span class="nav-number">5.</span> <span class="nav-text">订阅</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -248,7 +248,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-11 20:31:59" itemprop="dateModified" datetime="2021-12-11T20:31:59+08:00">2021-12-11</time>
+        <time title="修改时间：2021-12-11 20:43:33" itemprop="dateModified" datetime="2021-12-11T20:43:33+08:00">2021-12-11</time>
       </span>
 
   
@@ -274,6 +274,17 @@
 <h1 id="启用插件"><a href="#启用插件" class="headerlink" title="启用插件"></a>启用插件</h1><p>在博客根目录下<code>_config.yml</code>文件中添加如下内容   </p>
 <figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Extensions</span></span><br><span class="line"><span class="symbol">plugins:</span></span><br><span class="line">    hexo-generator-feed</span><br><span class="line"><span class="meta">#Feed Atom</span></span><br><span class="line"><span class="symbol">feed:</span></span><br><span class="line"><span class="symbol">    type:</span> atom</span><br><span class="line"><span class="symbol">    path:</span> atom.xml</span><br><span class="line"><span class="symbol">    limit:</span> <span class="number">20</span>   </span><br></pre></td></tr></table></figure>
 <span id="more"></span>
+
+<h1 id="NexT-config-yml"><a href="#NexT-config-yml" class="headerlink" title="NexT _config.yml"></a>NexT _config.yml</h1><p>NexT提供了两个地方进行RSS展示</p>
+<ol>
+<li>在菜单栏显示</li>
+</ol>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Usage: `Key: /link/ || icon`</span></span><br><span class="line"><span class="comment"># Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.</span></span><br><span class="line"><span class="comment"># Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.</span></span><br><span class="line"><span class="comment"># External url should start with http:// or https://</span></span><br><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  about: <span class="regexp">/about/</span> || fa fa-user</span><br><span class="line">  tags: <span class="regexp">/tags/</span> || fa fa-tags</span><br><span class="line">  categories: <span class="regexp">/categories/</span> || fa fa-th</span><br><span class="line">  archives: <span class="regexp">/archives/</span> || fa fa-archive</span><br><span class="line">  RSS: /atom.xml || fa fa-rss</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>在文章底部显示</li>
+</ol>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Subscribe through Telegram Channel, Twitter, etc.</span></span><br><span class="line"><span class="meta"># Usage: `Key: permalink || icon` (Font Awesome)</span></span><br><span class="line"><span class="symbol">follow_me:</span></span><br><span class="line">  <span class="meta">#Twitter: https:<span class="comment">//twitter.com/username || fab fa-twitter</span></span></span><br><span class="line">  <span class="meta">#Telegram: https:<span class="comment">//t.me/channel_name || fab fa-telegram</span></span></span><br><span class="line">  <span class="meta">#WeChat: /images/wechat_channel.jpg || fab fa-weixin</span></span><br><span class="line">  <span class="meta"># RSS: /atom.xml || fa fa-rss</span></span><br></pre></td></tr></table></figure>
 <h1 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h1><p><code>$ hexo g</code></p>
 <figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">(<span class="keyword">node</span><span class="title">:6520</span>) [DEP0061] DeprecationWarning: fs.SyncWriteStream is depre                                                                                                                           cated.</span><br><span class="line"><span class="literal">INF</span>O  <span class="literal">Start</span> processing</span><br><span class="line"><span class="literal">INF</span>O  Files loaded <span class="keyword">in</span> <span class="number">6.33</span> s</span><br><span class="line"><span class="literal">INF</span>O  Generated: atom.<span class="keyword">xml</span> <span class="title">&lt;----------成功生成atom</span>.xml文件</span><br><span class="line"><span class="literal">INF</span>O  Generated: sitemap.<span class="keyword">xml</span></span><br><span class="line"><span class="title">INFO</span>  Generated: baidusitemap.<span class="keyword">xml</span></span><br><span class="line"><span class="title">INFO</span>  Generated: about/index.html</span><br><span class="line">......</span><br><span class="line">......</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
 
@@ -294,7 +305,7 @@
       <div class="social-item">
         <a target="_blank" class="social-link" href="/atom.xml">
           <span class="icon">
-            <i class=""></i>
+            <i class="fa fa-rss"></i>
           </span>
 
           <span class="label">rss</span>
