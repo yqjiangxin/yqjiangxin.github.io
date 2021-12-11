@@ -302,4 +302,22 @@ menu:<br>home: /<br>categories: /categories<br>#about: /about<br>archives: /arch
 <p><a href="https://blog.csdn.net/assqd123/article/details/84530190">https://blog.csdn.net/assqd123/article/details/84530190</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2>]]></content>
   </entry>
+  <entry>
+    <title>hexo博客绑定至腾讯云专属域名指南</title>
+    <url>/posts/46658bfe/</url>
+    <content><![CDATA[<h1 id="腾讯云域名注册"><a href="#腾讯云域名注册" class="headerlink" title="腾讯云域名注册"></a>腾讯云域名注册</h1><p><a href="https://buy.cloud.tencent.com/domain">https://buy.cloud.tencent.com/domain</a></p>
+<p>按网站指引注册即可，需要注意的是，注册域名除了需要支付一定的费用外（大概几十块钱一年），还需提前准备身份证等照片，进行实名认证。</p>
+<p>本网站注册的域名为<code>yqjiangxin.cn</code></p>
+<h1 id="腾讯云域名添加解析"><a href="#腾讯云域名添加解析" class="headerlink" title="腾讯云域名添加解析"></a>腾讯云域名添加解析</h1><p><code>yqjiangxin.github.io</code></p>
+<p>ping yqjiangxin.github.io 获取ip地址</p>
+<p><code>ping yqjiangxin.cn</code></p>
+<p>注意：域名解析设置后一般不会立即生效，需要等待2-4小时（也可能需要更长时间，一般不会超过24h）。</p>
+<h1 id="github设置添加custom-domain"><a href="#github设置添加custom-domain" class="headerlink" title="github设置添加custom domain"></a>github设置添加custom domain</h1><p>yqjiangxin.cn</p>
+]]></content>
+      <tags>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>域名</tag>
+      </tags>
+  </entry>
 </search>

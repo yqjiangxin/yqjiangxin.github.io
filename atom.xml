@@ -6,7 +6,7 @@
   <link href="https://yqjiangxin.github.io/atom.xml" rel="self"/>
   
   <link href="https://yqjiangxin.github.io/"/>
-  <updated>2021-12-10T16:35:54.000Z</updated>
+  <updated>2021-12-11T05:57:07.000Z</updated>
   <id>https://yqjiangxin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客绑定至腾讯云专属域名指南</title>
+    <link href="https://yqjiangxin.github.io/posts/46658bfe/"/>
+    <id>https://yqjiangxin.github.io/posts/46658bfe/</id>
+    <published>2021-12-11T05:31:00.000Z</published>
+    <updated>2021-12-11T05:57:07.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;腾讯云域名注册&quot;&gt;&lt;a href=&quot;#腾讯云域名注册&quot; class=&quot;headerlink&quot; title=&quot;腾讯云域名注册&quot;&gt;&lt;/a&gt;腾讯云域名注册&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="github" scheme="https://yqjiangxin.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://yqjiangxin.github.io/tags/hexo/"/>
+    
+    <category term="域名" scheme="https://yqjiangxin.github.io/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>mac air 重装系统指南</title>
